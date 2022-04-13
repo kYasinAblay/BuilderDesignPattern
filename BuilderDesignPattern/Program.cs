@@ -29,6 +29,10 @@ namespace BuilderDesignPattern
         {
             this.interior = interior;
         }
+        public override string ToString()
+        {
+            return $"{basement} is create.\n{structure} is create\n{roof} is create.\n{interior} is create";
+        }
     }
 
     //Builder class
